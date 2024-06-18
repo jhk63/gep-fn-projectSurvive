@@ -58,7 +58,7 @@ public class LevelUpUI : MonoBehaviour
     void SelectStat(int statIndex)
     {
         GameManager.instance.player.IncreaseStat(randomStats[statIndex]);
-        Debug.Log(randomStats[statIndex]);
+        // Debug.Log(randomStats[statIndex]);
 
         LevelUpPanel.SetActive(false);
         Time.timeScale = 1;

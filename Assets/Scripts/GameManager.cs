@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public Player player;
     public AttackInRange attackInRange;
 
+    public GameObject GameStartPanel;
     public GameObject GameOverPanel;
 
     [Header("GameTimer")]
@@ -33,7 +34,10 @@ public class GameManager : MonoBehaviour
         instance = this;
         isLevelUp = false;
 
+        GameStartPanel.SetActive(true);
         GameOverPanel.SetActive(false);
+
+        Time.timeScale = 0;
     }
 
     void Update()
