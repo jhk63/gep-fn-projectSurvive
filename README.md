@@ -13,3 +13,8 @@
 ## 인게임 화면 
 
 ![image](https://github.com/jhk63/gep-fn-projectSurvive/assets/163096026/ccff17a7-9582-4809-9c24-090dae6df2d4)
+
+
+## 참고 사이트
+
+[오브젝트 풀링](https://m.blog.naver.com/gold_metal/222960275623)
